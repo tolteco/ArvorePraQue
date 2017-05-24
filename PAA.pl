@@ -62,11 +62,6 @@ foreach (@K){
   }
 }
 $i = 0;
-foreach (keys %data){
-  $D1[$i] = $_;
-  $C[$i] = $data{$_};
-  print "+$D1[$i]+$C[$i]-\n";
-}
 open(IN, "<in.txt") or die "Nao deu pra abrir o arquivo $!";
 open(OT, ">out.txt") or die "Nao deu pra abrir o arquivo $!";
 $T1 = 0;
