@@ -3,6 +3,7 @@
 #Projeto do codigo de Huffman
 #PAA - 2017
 #Maycon Q
+#Paulo T
 
 open(IN, "<in.txt") or die "Nao deu pra abrir o arquivo $!";
 
